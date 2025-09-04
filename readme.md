@@ -55,7 +55,6 @@ python3 sbom-tree.py <sbom-file> [--format <ascii|html|dot>] [--output <file>] [
 3. Produce a Graphviz DOT file for rendering:
    ```bash
    python3 sbom-tree.py sbom.json --format dot --output deps.dot
-   dot -Tpng deps.dot -o deps.png
    ```
 
 ## Example Output
