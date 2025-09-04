@@ -61,15 +61,13 @@ python3 sbom-tree.py <sbom-file> [--format <ascii|html|dot>] [--output <file>] [
 ## Example Output
 
 ### ASCII
-```
-+-- my-app@1.0.0
-    +-- lib-a@2.3.1
-    +-- lib-b@1.2.0
-        +-- lib-c@0.9.0
-```
+![ASCII tree example](screenshots/ascii.png)
+
 
 ### HTML
 An interactive webpage with collapsible nodes, search functionality, and the ability to pin a dependency path for highlighting.
+
+![HTML tree example](screenshots/html.png)
 
 ### DOT
 A Graphviz-compatible `.dot` file that can be rendered into a visual graph, e.g., using `dot -Tpng`.
